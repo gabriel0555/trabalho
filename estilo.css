@@ -1,0 +1,114 @@
+body 
+{
+    margin: 0px;
+}
+
+header
+{
+}
+
+.header-linha
+{
+    background-color:  #117050;
+    height: 10px;
+}
+
+.header-area
+{
+    height: 103px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 110px;
+}
+
+
+.header-left a img
+{
+    height: 64px;
+    width: 64px;
+}
+
+.header-rigth
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-rigth .pesquisar form
+{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-rigth input
+{
+    font-size: 16px;
+    padding: 10px 13px;
+    border: 1px solid #999;
+    outline: 0;
+    max-width: 260px;
+    height: 16px;
+}
+
+.header-rigth button
+{
+    border: 0px;
+    background-color: #99999900;
+    margin-top: 3px;
+    margin-left: -38px;
+    cursor: pointer;
+}
+
+.header-menu
+{
+    margin-left: 50px;
+}
+
+.header-menu img
+{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* pc */
+
+@media(max-width: 1075px)
+
+{
+
+    .header-area
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+}
+
+@media(max-width: 395px) 
+
+{
+
+    .header-rigth input
+
+    {
+        width: 40vw;
+    }
+
+}
+
+/* celular  */
+
+@media(max-width: 335px)
+
+{
+
+    .header-rigth input
+
+    {
+        width: 33vw;
+    }
+}
